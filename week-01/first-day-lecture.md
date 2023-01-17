@@ -107,7 +107,7 @@
     - each of you has your own channel
     - cohort-web-41
 - Calendar: https://calendar.google.com/calendar?cid=Ym9vdGNhbXBjb2RlcnNAZ21haWwuY29t
-- GitHub: https://github.com/dd-fullstack-cohort-40
+- GitHub: https://github.com/dd-fullstack-cohort-41
     - All relevant example and other repos posted there
     - Lecture Notes and assignments found in the lecture-notes repo
 - Note taking tools
