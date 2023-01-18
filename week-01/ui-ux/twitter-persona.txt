@@ -27,5 +27,27 @@ Attitudes & Needs
 
 
 
+User Story: As a power user I want to check what is trending.
+
+Usecase: Taylor has been anxiously waiting days for WWDC so they can to hear all the news coming out about Apple. Today is the day of the event and they want to see all the trending apple news on twiiter so they can stay up to date when geeking out with friends.
+
+Precondition: Taylor is logged into twitter and is on their home page.
+Postcondition Taylor has caught up on all the latest Apple news and gossip
+
+* Taylor surveys their home page and clicks into the search field
+* the website opens a dialog box containing previous searches
+* Taylor sees Apple from a previous serach and clicks on the apple option
+* The website redirects taylor to a new page with trending search results about twitter
+* Taylor notices the latest option and clicks that
+* The website reloads the page with the latest search results
+* taylor begins scrolling tweets to find a tweet that peaks their intrest
+* Twitter using infinite scroll loads new tweets Taylor hasn't seen yet
+* Taylor clicks on a tweet she is intrested in with a news article with all the new info so far at WWDC
+* Twitter redirects Taylor to a detailed page for that tweet with all replys to that tweet.
+* Taylor scans replys and decides to click on the new link
+* Twitter secretly records the website taylor is visting and redirects them.
+* Taylor reads the article on the external site
+
+
     
 
