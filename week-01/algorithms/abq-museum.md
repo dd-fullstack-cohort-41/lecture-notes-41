@@ -1,0 +1,21 @@
+
+declare age, nMResident, foundationMember, cost
+
+if foundationMember === true
+    cost = 0
+else
+    if age >= 65 
+        cost = 4
+    else if age > 12
+        if nMResident === true
+            cost = 5
+        else
+            cost = 6
+    else if age > 3
+        cost = 3
+    else
+        cost = 0
+        
+output cost
+
+    
