@@ -5,7 +5,7 @@
     - Question: What does it mean to be a developer?
     - Someone that makes software
     - Works with a team
-    - See into the future
+    - See into the future planning
     - Someone who thinks of code logically
     - Uses tool to make something
     - Making things work properly
@@ -15,6 +15,9 @@
     - This is you!  Right now!  You belong here.
     - Well rounded and specialized
     - Emotionally elastic
+    - create
+    - engineer
+    - seeing something through
     - Attributes
         - knowledgeable
         - research
