@@ -9,6 +9,12 @@ Lecture notes, assignments, and other resources for Fullstack Cohort 41. This re
 All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding Assignments
+* PWP Milestone 1 Due Thursday 1/26
+  * [Milestone 1 documentation](https://ddc-web-curriculum.cnm.edu/pwp-milestone-one/)
+  * [Example Milestone1/Milestone2](https://ddc-web-curriculum.cnm.edu/pwp-example/)
+  * [PWP Gallery for inspiration](https://ddc-web-curriculum.cnm.edu/pwp-gallery/)
+  * [Rubric](https://ddc-web-curriculum.cnm.edu/pwp-evaluation-rubric/)
+* [UI UX Challenge Due Monday 1/23](https://classroom.github.com/a/GBCJMBAc)
 
 
 ### Past Assignments
