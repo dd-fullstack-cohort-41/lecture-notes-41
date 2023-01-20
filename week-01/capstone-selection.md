@@ -26,7 +26,6 @@
     - GitHub
     - Slack
     - ABQ Open Data https://www.cabq.gov/abq-data
-    - Twitter
     - Reddit
 - These datasets have not been verified
     - Spotify :notes:  https://developer.spotify.com/documentation/web-api/
