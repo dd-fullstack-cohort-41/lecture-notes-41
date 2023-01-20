@@ -15,6 +15,6 @@ All assignments are due before class at 8:00 a.m. on the due date.
   * [PWP Gallery for inspiration](https://ddc-web-curriculum.cnm.edu/pwp-gallery/)
   * [Rubric](https://ddc-web-curriculum.cnm.edu/pwp-evaluation-rubric/)
 * [UI UX Challenge Due Monday 1/23](https://classroom.github.com/a/GBCJMBAc)
-
+* [CSS Challenge Due Wednesday 1/25](https://classroom.github.com/a/_irof60-)
 
 ### Past Assignments
