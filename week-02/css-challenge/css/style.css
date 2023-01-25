@@ -140,7 +140,57 @@ th{
 	text-align: left;
 }
 
+/*contact form*/
 
+
+table{
+	width: 100%;
+}
+
+section:nth-child(4) h2{
+	text-align: right;
+}
+
+th{
+	font-weight: bold;
+	text-align: left;
+}
+
+div.sfooter-content section:last-child{
+	background-color: #333333;
+}
+
+.form-wrapper {
+	background-color: darkgreen;
+	color: lightgreen;
+	padding: 1.33em;
+	margin-bottom: .75em;
+}
+
+
+label {
+	display: flex;
+	margin: 1rem 0 .5rem 0;
+}
+
+input, textarea {
+	width: 25vw;
+	padding: .50rem
+}
+
+button {
+	background-color: #00ff00;
+	padding: .5rem 1.6rem;
+	font-weight: bold;
+	font-size: 1rem;
+	border: none;
+}
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
 
 
 
