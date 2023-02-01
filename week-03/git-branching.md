@@ -67,7 +67,7 @@ All work on capstones should follow the git flow model.
     - `git checkout develop`
 - **Golden rules of git**
     - You can always pull from a remote branch to the corresponding local branch, e.g. `git checkout develop` then `git pull`
-    - You can always merge from a higher branch in the hierarchy to a lower one, e.g. master -> develop or develop -> my-feature
+    - You can always merge from a higher branch in the hierarchy to a lower one, e.g. main -> develop or develop -> my-feature
 
 ## Further reading
 ![](../img/git-workflow.png)
