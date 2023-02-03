@@ -1,0 +1,1 @@
+Using Javascript and HTML create a student randomizer and print the students name to the DOM.
