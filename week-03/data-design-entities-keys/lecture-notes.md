@@ -7,10 +7,9 @@
     - total price of an order
     - number of likes
     - number of seats available
--	Some data is rarely or never changed, but must be stored
-- specific line on a specific order
-- user foo liked tweet bar
-- user foo purchased seat R15
+- Some data is rarely or never changed, but must be stored
+  - specific line on a specific order
+  - user foo purchased seat R15
 
 ## Entities, Attributes, & Relationships
 - **entity** - the most general "container" for data within data design
