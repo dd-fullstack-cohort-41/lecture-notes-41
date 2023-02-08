@@ -41,52 +41,50 @@ These instructions can be run using the MySQL challenge assignment.
 - If the previous command was successful run `mysql -u username -p database`.
     - Your username, database, and password can be found in the mysql.env file.
 
-## Sample MySQL file
-```MySQL
+## Sample postgreSQL file
+```postgreSQL
 drop table if exists articleTag;
 drop table if exists article;
 drop table if exists tag;
 drop table if exists author;
 
 create table author(
-    authorId binary(16) not null,
-    authorActivationToken char(32),
-    authorAvatarUrl varchar(255),
-    authorEmail varchar(128) not null,
-    authorHash char(97) not null,
-    authorUsername varchar(32) not null,
-    unique(authorEmail),
-    unique(authorUsername),
-    index(authorEmail),
-    primary key(authorId)
+    author_id uuid not null,
+    author_activation_token char(32),
+    author_avatar_url varchar(255),
+    author_email varchar(128) not null unique,
+    author_hash char(97) not null,
+    author_username varchar(32) not null unique,
+    primary key(author_id)
 );
+create index on author(author_email);
 
 create table tag(
-    tagId binary(16) not null,
-    tagName varchar(32) not null,
-    primary key(tagId)
+    tag_id uuid not null,
+    tag_name varchar(32) not null,
+    primary key(tag_id)
 );
 
 create table article(
-    articleId binary(16) not null,
-    articleAuthorId binary(16) not null,
-    articleContent blob not null,
-    articleDate datetime(6) not null,
-    articleImage varchar(255),
-    index(articleAuthorId),
-    foreign key(articleAuthorId) references author(authorId),
-    primary key(articleId)
+    article_id uuid not null,
+    article_author_id uuid not null,
+    article_content varchar(1000) not null,
+    article_date timestamp with time zone not null,
+    article_image varchar(255),
+    foreign key(article_author_id) references author(author_id),
+    primary key(article_id)
 );
+create index on article(article_author_id);
 
-create table articleTag(
-    articleTagArticleId binary(16),
-    articleTagTagId binary(16),
-    index(articleTagArticleId),
-    index(articleTagTagId),
-    foreign key(articleTagArticleId) references article(articleId),
-    foreign key(articleTagTagId) references tag(tagId),
-    primary key(articleTagArticleId, articleTagTagId)
+create table article_tag(
+    article_tag_article_id uuid,
+    article_tag_tag_id uuid,
+    foreign key(article_tag_article_id) references article(article_id),
+    foreign key(article_tag_tag_id) references tag(tag_id),
+    primary key(article_tag_article_id, article_tag_tag_id)
 );
+create index on article_tag(article_tag_article_id);
+create index on article_tag(article_tag_tag_id);
 ```
 - Tables must be added from strongest to weakest, and dropped in opposite order
 
