@@ -1,0 +1,1 @@
+Create a conceptual model and ERD for an instagram clone that allows users to create posts and follow other users. Extra Credit: Add liking functionality.
