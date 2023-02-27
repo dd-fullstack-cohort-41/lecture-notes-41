@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+<!--The ACTION attribute is where the browser will send the input values to and redirect the browser to.-->
+<!--The method is the HTTP method... GET, POST, PUT or DELETE-->
+<form action="http://165.227.50.143:8080/apis/sign-in" method="post" class="form-example">
+	<div class="form-example">
+<!--		The label tag contains a FOR attribute that must match the input tag ID attribute.-->
+		<label for="name">Enter your name: </label>
+		<input type="text" name="name" id="name" required>
+	</div>
+	<div class="form-example">
+		<label for="profileEmail">Enter your email: </label>
+		<input type="email" name="profileEmail" id="profileEmail" required>
+	</div>
+	<div class="form-example">
+		<input type="submit" value="Subscribe!">
+	</div>
+</form>
+
+
+</body>
+</html>
