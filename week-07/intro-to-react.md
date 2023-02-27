@@ -104,7 +104,8 @@ setExternalData(axios.get("supercool.api"))
 ## React Hooks
 * React hooks are a relatively new feature in react.
 * Hooks allow us to use the same functionality of React Class Components without having to use Classes.
-* go over the four rules of hooks.
+* go over the rules of hooks.
+* [rules of hooks](https://reactjs.org/docs/hooks-rules.html)
 * The two most common hooks used in class is useState and useEffect.
 * ### useState
 * The useState hook enables functional components to have state variables.
@@ -134,8 +135,8 @@ setExternalData(axios.get("supercool.api"))
 * [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
 ### Rules of Hooks
-1. Only call hooks from functional react components or custom
-2. Dont call hooks in nested functions, loops or conditionals
+1. Only call hooks from functional react components or custom hooks
+2. Don't call hooks in nested functions, loops or conditionals
 ## Further Reading
 * [Kent C. Dodds: Beginners Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react)
 * [State vs. Props](https://codeburst.io/react-state-vs-props-explained-51beebd73b21)
