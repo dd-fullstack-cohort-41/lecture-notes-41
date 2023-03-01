@@ -1,0 +1,1 @@
+using fetch, useState and useEffect make an API call to the deck of cards api to grab a deck of cards and show the results on the DOM.
